@@ -1,0 +1,22 @@
+﻿  main.cpp
+d:\program files (x86)\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\program files (x86)\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\program files (x86)\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\program files (x86)\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\program files (x86)\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\srtp\project\opencvtest\opencvtest\main.cpp(17): warning C4101: “img_left_Change”: 未引用的局部变量
+c:\srtp\project\opencvtest\opencvtest\main.cpp(17): warning C4101: “img_right_Change”: 未引用的局部变量
+main.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvReleaseImage，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvCloneImage，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvSaveImage，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvCreateCameraCapture，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvGrabFrame，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvRetrieveFrame，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvReleaseCapture，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvNamedWindow，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvShowImage，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvDestroyWindow，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _cvWaitKey，该符号在函数 _main 中被引用
+D:\Program Files (x86)\opencv\build\x64\vc14\lib\opencv_world320d.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\SRTP\project\OpencvTest\Debug\OpencvTest.exe : fatal error LNK1120: 12 个无法解析的外部命令
